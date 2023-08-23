@@ -1,5 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* margin-top: 30px; */
+}
+
+@font-face {
+    font-family: myFont;
+    src: url('/src/css/fonts/headline-bold/antarcticanheadline-bold-webfont.woff2'),
+        url('antarcticanheadline-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 body {
     background-color: white;
+}
+
+.main {
+    margin-top: 5%;
+    padding: 10px;
 }
 
 .header {
@@ -65,4 +88,90 @@ body {
     width: 100%;
     border: 0;
     margin-top: 5%;
+}
+
+/* stackStyle */
+
+
+.container {
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffcc19;
+    text-align: center;
+    border-radius: 25px;
+
+}
+
+.title {
+    margin-bottom: 25px;
+}
+
+.title h1 {
+    line-height: 60px;
+    font-family: myFont;
+    font-size: 75px;
+    font-weight: 100;
+    color: #26282d;
+}
+
+
+.title h2 {
+    color: #26282d;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 13px;
+}
+
+
+
+
+.formBox {
+    width: 50%;
+    text-align: left;
+    margin: auto;
+}
+
+.labels input {
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    font-size: 38px;
+    margin-bottom: 8px;
+}
+
+.input-name label {
+    font-size: 21px;
+    font-weight: 700;
+    font-family: myFont;
+    color: #26282d;
+}
+
+
+.img_1 img {
+    position: absolute;
+    width: 16%;
+    left: 15%;
+    top: 20%;
+}
+
+.img_2 img {
+    width: 16%;
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+
+
+.submit button {
+    padding: 15px 25px 15px 25px;
+    background-color: #26282d;
+    color: #ffcc19;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 8px;
+    display: flex;
+    margin: auto;
 }
